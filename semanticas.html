@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etiquetas Semanticas</title>
+</head>
+<body>
+    <header>
+        <img src="logo.jpg" alt="logo">
+        <h1>Título de la página</h1>
+        <!-- Recomendable solo tener un h1 por pagína -->
+        
+        <nav> 
+            <!-- Para el menun de navegacion de la pagína -->
+            <li>Opcion 1</li>
+            <li>Opcion n</li>
+        </nav>
+        <!-- nav indica el navegador de la pagñina -->
+    </header>
+
+    <!-- En el main se coloca la informacion relevante de la pagñina -->
+    <main>
+        Aquí va lo importante
+        <article>Fuera de sección</article>
+        <section>
+
+        </section>
+        <section>
+            <!-- No se debe colocar un section dentro de otro -->
+            <article></article>
+            <article>
+                Información
+                <article></article>
+            </article>
+        </section>
+
+        <aside>
+            Informción no importante
+            Información tangencial de la empresa
+        </aside>
+        <!-- El aside puede ir en cualquier parte, contiene informacion no relevante
+        por lo que es ignorado por los buscadores, generalmente se usa para publicidad -->
+    </main>
+
+    <footer>
+        Contacto - Telefonos - Direccion - Redes Sociales
+        &copy; 2024 <br>
+        Acerca de...
+        Otras Paginas....
+    </footer>
+
+</body>
+</html>
