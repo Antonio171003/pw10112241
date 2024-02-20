@@ -1,0 +1,8 @@
+Selectores
+    pseudoelementos
+    
+    etiquetas (p div, article, section)
+    id (identificadores)# <--- únicos
+    clases . <--- punto, reciclar
+    
+    media queries
