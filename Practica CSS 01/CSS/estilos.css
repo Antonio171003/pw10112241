@@ -9,6 +9,37 @@ header{
     background: #D1E3EE;
 }
 
+header nav{
+    background: #026DC6;
+    border-radius: 5px; /*5px es el estandar para redondeo*/
+    margin: 0px auto;
+    padding: 2px 0px;
+    width: 99%;
+}
+
+header nav form{
+    float: right;
+    margin-right: 10px;
+    margin-top: -35px;
+}
+
+header nav form input{
+    border-radius: 5px;
+}
+
+header nav form input[type="submit"]{
+    background: rgb(4, 214, 88);
+    border: 1px solid rgb(4, 214, 88);
+    color: white;
+}
+
+header nav ul li{
+    /* border: 1px solid red; */
+    color:white;
+    display: inline-block;
+    margin-right: 20px;
+}
+
 #logo{ /* id = "logo" */
     /* margin: -150px 0px 0px 0px; */
     margin-top: -150px;
