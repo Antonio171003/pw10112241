@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Práctica 02 CSS</title>
+    <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
     <header>
         <img src="img/banner.png" alt="Linea">
-        <img src="img/granthams.png" alt="Granthams">
-        <img src="img/paint.png" alt="Pintura">
+        <img src="img/granthams.png" id="granthams" alt="Granthams">
+        <img src="img/paint.png" id="paint" alt="Pintura">
         <input type="search" placeholder="Search" size="25">
         <nav>
             <ul>
@@ -22,12 +23,12 @@
         </nav>
     </header>
 
-    <section>
-        <article>
+    <section id="primerseccion">
+        <article id="secc01art01">
             <img src="img/slide.jpg" alt="Slide">
         </article>
-        <article>
-            We can offer...
+        <article id="secc01art02">
+            <span class="letragrande rosa nito">We can offer...</span>
             <ul>
                 <li>Highly Competitive Prices</li>
                 <li>Variable Data</li>
@@ -39,38 +40,38 @@
                 <li>Great Customer Serevice</li>
             </ul>
         </article>
-        <img src="img/bg_offer.png" alt="Ofertas">
+        <img src="img/bg_offer.png" id="bgoffer" alt="Ofertas">
     </section>
-    <section>
+    <section id="segundaseccion">
         <article>
-            01772 250207
+            <span class="letramediana rosa nito">01772 250207</span>
         </article>
     </section>
-    <section>
+    <section id="terceraseccion">
         <article>
             <img src="img/cerdito.png" alt="Cerdito">
-            Save this Spring
+            <span class="rosa nito">Save this Spring</span>
             <br>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto culpa doloribus, tempora commodi accusamus qui, ea eos fugit soluta velit deserunt voluptatibus beatae! Est delectus eligendi sint adipisci esse quae.
             <p></p>
-            Find out more..
+            <span class="rosa">Find out more..</span>
         </article>
         <article>
             <img src="img/hoja.png" alt="Hoja">
-            ECO Friendly
+            <span class="verde nito">ECO Friendly</span>
             <br>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde eaque corporis, consequuntur adipisci nesciunt reiciendis quod corrupti dolores consectetur ea numquam vitae provident modi quibusdam officia. Totam aperiam placeat nemo!
         </article>
         <article>
             <img src="img/new.png" alt="New">
-            Upload your file 
+            <span class="azul nito">Upload your file</span>
             <br>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil dicta consequatur, accusamus ut necessitatibus totam sint. Magni voluptas accusamus quas incidunt ad rerum optio eos ipsa officia. Sapiente, recusandae omnis!
             <p></p>
-            Upload your File Now..
+            <span class="azul">Upload your File Now..</span>
         </article>
         <article>
-            Stay in touch
+            <span class="letramediana rosa">Stay in touch</span>
             <br>
             Join our mailing list today
             <input type="email" placeholder="Email goes here">
