@@ -32,6 +32,61 @@ header nav ul li{
     margin-left: 15px;
 }
 
+#bgoffer{
+    position: relative;
+    top: -410px;
+    left: -35px;
+}
+
 #paint{
     float: right;
+}
+
+#primerseccion{
+    border: 1px solid #4267B3;
+    height: 318px;
+    margin-top: 60px;
+}
+
+#primerseccion article{
+    display: inline-block;
+    vertical-align: top;
+}
+
+#secc01art01{
+    /* border: 1px solid red; */
+    width: 61%;
+}
+
+#secc01art02{
+    /* border: 1px solid red; */
+    margin-left: 6%;
+    width: 30%;
+}
+
+#secc01art02 ul{
+    list-style: none;
+}
+
+#secc01art02 ul li:before{
+    color: #FF0099;
+    content: "• ";
+}
+
+.azul{
+    color: #4267B3;
+}
+.rosa{
+    color: #FF0099;
+}
+.verde{
+    color: #88C500;
+}
+
+.nito{
+    font-weight: bold;
+}
+
+.letragrande{
+    font-size: 3.5em;
 }
