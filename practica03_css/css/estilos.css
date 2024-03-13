@@ -14,12 +14,28 @@ body{
     max-width: 1024px;
 }
 
+footer article{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px;
+    vertical-align: top;
+    width: 31.1%;
+}
+
+footer img{
+    width: 300px;
+}
+
+header ul{
+    margin-left: -35px;
+}
+
 header ul li{
     display: inline-block;
-    margin-left: -10px;
+    margin-left: -8px;
     padding: 8px 14px;
     text-align: center;
-    width: 17%;
+    width: 17.1%;
 }
 
 header ul li:nth-child(2){
@@ -39,12 +55,18 @@ section, footer{
     background: var(--fondo-negro);
 }
 
+hr{
+    border-style: dashed;
+    color: var(--color-linea);
+}
+
 section article{
     display: inline-block;
     height: 280px;
+    margin-left: -8px;
     padding: 18px 8px;
     vertical-align: top;
-    width: 17.9%;
+    width: 18.3%;
 }
 
 section article ul{
@@ -76,6 +98,10 @@ section img{
 }
 .letra-gris{
     color: var(--color-linea);
+}
+.read-more{
+    /* border: 1px solid red; */
+    margin-left: 220px;
 }
 .tam-menu-lateral{
     font-size: 1.1em;
