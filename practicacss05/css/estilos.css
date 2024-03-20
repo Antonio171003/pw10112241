@@ -1,0 +1,19 @@
+body{
+    background: rgb(239 239 239);
+    font-size: 16px; /*1em*/
+    margin: 0px auto; /* centrado*/
+    max-width: 1024px;
+}
+
+header{
+    background: rgb(38 93 146);
+    padding: 0px 35%;
+}
+
+#panelWithLinks{
+    background: rgb(32 72 115);
+}
+
+.letraBlanca{
+    color: white;
+}
