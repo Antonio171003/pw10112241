@@ -3,16 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Practica 04</title>
+    <title>Practica CSS 04</title>
     <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
-    
-    <header>
-        <img src="img/first_bike.png" alt="first_bike">
 
+    <header>
+        <article>
+            <img src="img/logo_rojo.png" alt="Logo_rojo">
+            <img src="img/bandera.png" alt="Bandera">
+            <img src="img/mundo.png" alt="Mundo">
+        </article>
+        <br>
+        <img src="img/first_bike.png" alt="First_bike">
+        <p></p>
         <nav>
-            <ul>
+            <ul class="nito">
                 <li>Home</li>
                 <li>About</li>
                 <li>Bikes</li>
@@ -23,83 +29,86 @@
                 <li>Store</li>
             </ul>
         </nav>
-
-        <img src="img/buy.png" alt="buy">
-        <img src="img/go_to_shop.png" alt="go_to_shop">
-
-        <hr>
+        <img src="img/buy.png" alt="Buy" id="buy">
+        <img src="img/go_to_shop.png" alt="Go_to_shop" id="go_to_shop">
+        <hr id = "linea1" class="linea-punteada">
     </header>
 
     <section>
         <article>
-            <span>FIRST SENSE OF</span>
-            <span>BALANCE</span>
-            <hr>
-            <p></p>
-            <p>
+            <h1>FIRST SENCE OF <span class="color-verde">BALANCE</span></h1>
+            <hr class="linea-punteada">
+            <p class="letra-gris">
                 The perfect training bike for your child from 2 to 5 years old and the first choice
-                for parents worldwide. FirstBIKE supports the development of a child's balance  
+                for parents worldwide. FirstBIKE supports the development of a child's balance
                 and provides a no-stress method of learning to ride a bike.
             </p>
-            <article>
-                <img src="img/video01.png" alt="video01">
-                <img src="img/video02.png" alt="video02">
-            </article>
+            <p></p>
+            <img src="img/video01.png" alt="Video01">
+            <img src="img/video02.png" alt="Video02">
         </article>
-
         <article>
-            <img src="img/bike.jpg" alt="bike">
-            <img src="img/5years.png" alt="5years">
+            <img src="img/bike.jpg" alt="Bike" id="bike">
+            <img src="img/5years.png" alt="5years" id="imgYears">
         </article>
     </section>
 
     <footer>
-        <img src="img/facebook.png" alt="F">
-        <img src="img/twitter.png" alt="X">
-        <img src="img/signal.png" alt="Wifi">
+        <img src="img/facebook.png" alt="facebook">
+        <img src="img/twitter.png" alt="twitter">
+        <img src="img/signal.png" alt="signal">
         <img src="img/voice.png" alt="voice">
-        &copy; 2014 Miles Year Ltd. Official Distributor of FirstBIKE in Hona Kona
-
-        <article>
-            ABOUT US
+        <span class="letra-gris">
+            &copy; 2014 Miles Year Ltd. Official Distributor of FirstBIKE in Hona Kona
+        </span>
+        <br>
+        <article class = "letra-gris">
+            <span class="nito">ABOUT US</span>
+            <br>
             <hr>
-            About FirstBIKE <br>
-            About Miles Year Itd <br>
-            Careers <br>
-            Contact Us <br>
+            About FirstBIKE
+            <br>
+            About Miles Year Itd
+            <br>
+            Careers
+            <br>
+            Contact Us
         </article>
-
-        <article>
-            CUSTOMER INFO
+        <article class = "letra-gris">
+            <span class="nito">CUSTOMER INFO</span>
+            <br>
             <hr>
-            Customer Service <br>
-            Return & Exchanges <br>
-            Shiopina <br>
-            Find a Store <br>
+            Customer Service
+            <br>
+            Return & Exchanges
+            <br>
+            Shipping
+            <br>
+            Find a Store
         </article>
-
-        <article>
-            OUR POLICES
+        <article class = "letra-gris">
+            <span class="nito">OUR POLICIES</span>
+            <br>
             <hr>
-            Privacv Policv <br>
-            Terms and Conditions <br>
+            Privacv Policy
+            <br>
+            Terms and Conditions
         </article>
-
-        <article>
-            ACTIVITIES
+        <article class = "letra-gris">
+            <span class="nito">ACTIVITTES</span>
+            <br>
             <hr>
-            Latest News <br>
-            Racina/Competition <br>
+            Latest News
+            Racing/ Competition
         </article>
-
-        <article>
-            NEWSI ETTER
+        <article class = "letra-gris" id="last_article">
+            <span class="nito">NEWSLETTER</span>
+            <br>
             <hr>
-            Keep in touch with us to find out <br>
-            exclusively special for you <br>
+            Keep in touch with us to find out
+            exclusively special for you
         </article>
-
     </footer>
-
+    
 </body>
 </html>
