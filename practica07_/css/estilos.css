@@ -1,0 +1,25 @@
+body{
+    font-size: 16px; /*1em*/
+    margin: 0px auto; /* centrado*/
+    max-width: 1024px;
+}
+header{
+    background: rgb(28, 39, 53);
+    padding: 0px 35%;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+#section1{
+    background: rgb(28, 39, 53);
+}
+
+.letraBlanca{
+    color: white;
+}
