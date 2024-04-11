@@ -3,6 +3,23 @@ body{
     margin: 0px auto; /* centrado*/
     max-width: 1024px;
 }
+
+footer{
+    padding-top: 200px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+footer article{
+    margin-left: 3%;
+    width: 30%;
+    display:inline-block;
+}
+
+footer article p{
+    text-align: left;
+}
+
 header{
     background: rgb(28, 39, 53);
     padding: 0px 35%;
@@ -16,10 +33,45 @@ nav ul li{
     display: inline-block;
 }
 
+#desk{
+    border-color: white;
+    position: relative;
+    top: 180px;
+    
+}
+
 #section1{
     background: rgb(28, 39, 53);
+    margin-top: -15px;
+    padding-top: 100px;
+    text-align: center;
+}
+
+#btnGetStared{
+    border-radius: 15px;
+    background-color: rgb(29, 78, 216);
+    border-color: rgb(29, 78, 216);
+    height: 30px;
+}
+#btnLiveDemo{
+    border-radius: 15px;
+    background-color: #384151;
+    border-color: #384151;
+    height: 30px;
 }
 
 .letraBlanca{
     color: white;
+}
+.letraChica{
+    font-size: .9em;
+}
+.letraGrande{
+    font-size: 2em;
+}
+.letraGris{
+    color: rgb(133, 133, 133)
+}
+.nito{
+    font-weight: bold;
 }
