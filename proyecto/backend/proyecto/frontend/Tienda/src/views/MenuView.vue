@@ -5,7 +5,7 @@
 <template>
 
     <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
-    <div class="container-fluid">
+    <div class="container">
         <a class="navbar-brand" href="#">Tienda</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -16,6 +16,7 @@
                <RouterLink class="navbar-brand" to="/clientes">Clientes</RouterLink>
                <RouterLink class="navbar-brand" to="/proveedores">Proveedores</RouterLink>
                <RouterLink class="navbar-brand" to="/ventas">Ventas</RouterLink>
+               <RouterLink class="navbar-brand" to="/clientes/registro">Registro</RouterLink>
             </li>
         </ul>
         </div>
